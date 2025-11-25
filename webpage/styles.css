@@ -1,0 +1,55 @@
+
+html.body{
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 80%;
+    height: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#output-text{
+    height: 70%;
+    margin-top: 20px;
+    text-align: left;
+    overflow-y: auto;
+}
+
+dt{
+    font-weight: bold;
+    padding: 10px;
+}
+
+textarea{
+    width: 95%;
+    height: 40px;
+    resize: none;
+    padding: 5px;
+    margin-bottom: 50px;
+    left: 10px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 10px;
+    border-color: #87b2f6;
+    border-width: 3px;
+}
+
+button{
+    padding: 10px,20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 0px;
+    position: absolute;
+}
+
+img{
+    border-radius: 50%;
+}
