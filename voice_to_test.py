@@ -71,6 +71,15 @@ def whisper_recognize(audio_np):
     except Exception as e:
         return f"识别出错：{str(e)}"
 
+def wav_to_string(wav_buffer):
+    audio_np = wav_to_numpy(audio_buffer)
+    if audio_np.size == 0:
+        print("音频数据为空，程序终止")
+        return
+
+    # 4. 识别并输出
+    result = whisper_recognize(audio_np)
+    return result
 
 def main():
     print("===== 【Whisper语音转文字工具】 =====")
